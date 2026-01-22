@@ -1,4 +1,0 @@
-# Testing
-
-One two three
-
