@@ -255,7 +255,7 @@ Under propositions as types, which of the following can you prove?
   double-negation-elimination = {!!}
 ```
 
-Above, you should have distrib⊃∨2 is not provable.  However, you can
+Above, you should have concluded that distrib⊃∨2 is not provable.  However, you can
 prove the following with a double negation.  You might want to name a
 couple of lemmas as separate top-level definitions as you do the proof,
 since we haven't talked about how to do case analysis except by a named,
