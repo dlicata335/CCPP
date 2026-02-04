@@ -181,6 +181,14 @@ First, we prove (R ∧ S) ⊃ (S ∧ R).  Compare the program exchange with
   exchange p = (second p) , (first p)
 ```
 
+We can also write a function that takes a pair as input by
+pattern-matching the pair in the function definition:
+```
+  -- (R ∧ S) ⊃ (S ∧ R)
+  exchange-again : (R × S) → (S × R)
+  exchange-again (r , s) = s , r
+```
+
 Here are a few other examples:
 ```
   -- R ⊃ (R ∧ R)
