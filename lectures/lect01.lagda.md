@@ -1,5 +1,5 @@
 ```
-module LengthAppend where
+module Lect01 where
 ```
 
 As a preview for what's coming this semester, here is an example of
