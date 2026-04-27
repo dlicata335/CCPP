@@ -49,7 +49,7 @@ would be expected.
 Define an n x m matrix analogously as a type Matrix n m.  Define some
 operations on vectors and matrices, such as addition, scaling, dot
 product, and matrix multiplication.  Prove that matrix multiplication
-defines a linear map, i.e. that M*(v1 + v2) = M*v1 + M*v2 and M*0 = 0.
+defines a linear map, i.e. that M\*(v1 + v2) = M\*v1 + M\*v2 and M\*0 = 0.
 You are welcome to look up whatever resources you want to learn or
 remember linear algebra.
 
