@@ -42,7 +42,7 @@ Agda, please meet with me during one of the help sessions to discuss
 what you want to do, whether it seems feasible, and how much progress
 would be expected.
 
-## Foramlization of linear algebra
+## Formalization of linear algebra
 
 (Easier) Define a vector as a ListOfLength n as in [Lecture
 13](https://github.com/dlicata335/CCPP/blob/main/lectures/Lect13.lagda.md).
