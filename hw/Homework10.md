@@ -65,7 +65,8 @@ not in the language of r, and implement the matcher for this.
 (Harder) Prove that the matcher from Homework 8 is complete, i.e. that
 when it returns None, there is no splitting that into a front and a back
 where the front is in the language of the regular expression and the
-back is in the language of the stack.
+back is in the language of the stack. Start with all regular expressions 
+except intersection/both. (Even harder) Then do intersection. 
 
 (Harder) Look up "backreferences" in various languages' regexp
 libraries, such as Perl.  The idea is that, if a regular expression
@@ -83,19 +84,20 @@ backreference to the most recent capturing group.
 
 ## Binary search trees
 
-(Easier) Combine your solution to Homework 8 with the ideas from
+(Medium) Combine your solution to Homework 8 with the ideas from
 [Lecture
 20](https://github.com/dlicata335/CCPP/blob/main/lectures/Lect20.lagda.md)
 to prove that red-black tree insertion produces a sorted tree.  Prove
 that prove that a key is in the result of insert iff it was in the
 original tree or it is the newly inserted key.  
 
-(Harder) Look up the definition of an AVL tree and the algorithm for
+(Medium) Look up the definition of an AVL tree and the algorithm for
 inserting into an AVL tree (or you can start from [this
 code](https://dlicata.wescreates.wesleyan.edu/teaching/fp-s25/materials/lecture/lect21avl.sml)).
 Define a type of AVL trees such that a value of that type satisfies the
 depth invariants.  Prove that AVL tree insertion preserves this
-invariant by defining an insert function for this type of AVL trees.
+invariant by defining an insert function for this type of AVL trees. 
+(Harder) Then prove that the AVL tree insert preserves sorted order and has the correct contents.
 
 ## Tactics
 
