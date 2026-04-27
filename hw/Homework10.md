@@ -3,7 +3,7 @@ be worth 20% of your grade (recall that 70% is for the other homeworks,
 and 10% for class participation). This homework is due on the last day
 of the final exam period, Friday 5/15/26 at 5:00PM.  You will sign up to
 present progress to me sometime during exams (Tuesday 5/12 through
-Friday 5/15), but you can continue working on the after the
+Friday 5/15), but you can continue working on the homework after the
 presentation.
 
 Please refer to the
