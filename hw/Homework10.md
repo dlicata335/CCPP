@@ -77,7 +77,7 @@ capturing group) because aaa matches a+, b matches b, and aaa matches \1
 not match this regular expression.  Define when a string is in the
 language of a regular expression containing a backreference (hint: you
 might need to change the type of s ∈L r to add some extra data) and
-write a certified matcher that handles backreferences in the style of .
+write a certified matcher that handles backreferences in the style of either homework 7 or 8.
 For simplicity you can start with a language that allows only a single
 backreference to the most recent capturing group.  
 
