@@ -1,9 +1,11 @@
+# Homework 10
+
 This final homework, including the oral presentation of it to me, will
 be worth 20% of your grade (recall that 70% is for the other homeworks,
 and 10% for class participation). This homework is due on the last day
 of the final exam period, Friday 5/15/26 at 5:00PM.  You will sign up to
 present progress to me sometime during exams (Tuesday 5/12 through
-Friday 5/15), but you can continue working on the after the
+Friday 5/15), but you can continue working on the homework after the
 presentation.
 
 Please refer to the
@@ -42,16 +44,16 @@ Agda, please meet with me during one of the help sessions to discuss
 what you want to do, whether it seems feasible, and how much progress
 would be expected.
 
-## Foramlization of linear algebra
+## Formalization of linear algebra
 
 (Easier) Define a vector as a ListOfLength n as in [Lecture
 13](https://github.com/dlicata335/CCPP/blob/main/lectures/Lect13.lagda.md).
 Define an n x m matrix analogously as a type Matrix n m.  Define some
 operations on vectors and matrices, such as addition, scaling, dot
-product, and matrix multiplication.  Prove that matrix multiplication
-defines a linear map, i.e. that M*(v1 + v2) = M*v1 + M*v2 and M*0 = 0.
-You are welcome to look up whatever resources you want to learn or
-remember linear algebra.
+product, and matrix multiplication.  You are welcome to look up materials to learn/remember linear algebra.
+
+(Medium) Prove that matrix multiplication
+defines a linear map, i.e. that M\*(v1 + v2) = M\*v1 + M\*v2 and M\*0 = 0.
 
 (Harder) Continue to more linear algebra of your choice.  
 
@@ -65,7 +67,8 @@ not in the language of r, and implement the matcher for this.
 (Harder) Prove that the matcher from Homework 8 is complete, i.e. that
 when it returns None, there is no splitting that into a front and a back
 where the front is in the language of the regular expression and the
-back is in the language of the stack.
+back is in the language of the stack. Start with all regular expressions 
+except intersection/both. (Even harder) Then do intersection. 
 
 (Harder) Look up "backreferences" in various languages' regexp
 libraries, such as Perl.  The idea is that, if a regular expression
@@ -77,25 +80,26 @@ capturing group) because aaa matches a+, b matches b, and aaa matches \1
 not match this regular expression.  Define when a string is in the
 language of a regular expression containing a backreference (hint: you
 might need to change the type of s ∈L r to add some extra data) and
-write a certified matcher that handles backreferences in the style of .
+write a certified matcher that handles backreferences in the style of either homework 7 or 8.
 For simplicity you can start with a language that allows only a single
 backreference to the most recent capturing group.  
 
 ## Binary search trees
 
-(Easier) Combine your solution to Homework 8 with the ideas from
+(Medium) Combine your solution to Homework 8 with the ideas from
 [Lecture
 20](https://github.com/dlicata335/CCPP/blob/main/lectures/Lect20.lagda.md)
 to prove that red-black tree insertion produces a sorted tree.  Prove
 that prove that a key is in the result of insert iff it was in the
 original tree or it is the newly inserted key.  
 
-(Harder) Look up the definition of an AVL tree and the algorithm for
+(Medium) Look up the definition of an AVL tree and the algorithm for
 inserting into an AVL tree (or you can start from [this
 code](https://dlicata.wescreates.wesleyan.edu/teaching/fp-s25/materials/lecture/lect21avl.sml)).
 Define a type of AVL trees such that a value of that type satisfies the
 depth invariants.  Prove that AVL tree insertion preserves this
-invariant by defining an insert function for this type of AVL trees.
+invariant by defining an insert function for this type of AVL trees. 
+(Harder) Then prove that the AVL tree insert preserves sorted order and has the correct contents.
 
 ## Tactics
 
