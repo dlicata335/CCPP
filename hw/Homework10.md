@@ -54,6 +54,7 @@ product, and matrix multiplication.  You are welcome to look up materials to lea
 
 (Medium) Prove that matrix multiplication
 defines a linear map, i.e. that M\*(v1 + v2) = M\*v1 + M\*v2 and M\*0 = 0.
+[Edit: I forgot to also say that M\*(c\*v) = (c\*M)\*v , so that's another thing that you can prove, but you don't have to. ]
 
 (Harder) Continue to more linear algebra of your choice.  
 
